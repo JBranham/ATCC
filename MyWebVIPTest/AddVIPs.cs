@@ -101,6 +101,8 @@ namespace MyWebVIPTest
             Validate.AttributeEqual(repo.RanorexVIPDatabaseTestWebApplicatio.CountInfo, "InnerText", "VIP count: 1");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "User", "TEST OVER!", new RecordItemIndex(6));
+            
         }
 
 #region Image Feature Data
